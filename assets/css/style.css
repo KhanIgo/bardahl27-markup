@@ -74,7 +74,7 @@ header.site-header {
     header.site-header > .container .column {
       height: 100%; }
       header.site-header > .container .column .label {
-        line-height: 25px; }
+        line-height: 24px; }
         header.site-header > .container .column .label span {
           background: #f8b504;
           padding: 3px 10px;
@@ -117,7 +117,11 @@ header.site-header {
 /* NAVIGATION STYLES BEGIN */
 nav.site-nav {
   background: #000;
-  height: auto; }
+  height: auto;
+  height: 80px;
+  overflow: hidden; }
+  nav.site-nav.opened {
+    height: 217px; }
   nav.site-nav .container {
     height: 217px;
     overflow: visible;
@@ -327,5 +331,71 @@ nav.site-nav {
         background: url("../images/nav-catalog-subnav-7.jpg"); }
 
 /* NAVIGATION STYLES END */
+/* MAIN PAGE STYLES BEGIN */
+.sale-hits > .container {
+  position: relative; }
+  .sale-hits > .container header {
+    width: 100%;
+    height: 70px;
+    line-height: 26px;
+    position: relative; }
+    .sale-hits > .container header h3 {
+      width: 235px;
+      height: 70px;
+      line-height: 100px;
+      display: inline-block; }
+    .sale-hits > .container header form {
+      position: absolute;
+      right: 0px;
+      top: 32px;
+      width: 305px;
+      height: 30px; }
+      .sale-hits > .container header form input {
+        width: 100%;
+        height: 100%;
+        box-shadow: none !important;
+        border: 1px solid #9d9d9d;
+        padding-left: 10px;
+        padding-right: 30px; }
+      .sale-hits > .container header form button {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        z-index: 2;
+        background: url("../images/search-lens.png") no-repeat;
+        background-position: center;
+        border: none !important;
+        box-shadow: none !important;
+        cursor: pointer; }
+
+/* MAIN PAGE STYLES END */
+/* SHOP STYLES BEGIN */
+.product-item {
+  width: 307px;
+  height: 200px;
+  border: solid 1px #9d9d9d; }
+  .product-item .side-1 {
+    width: 100%;
+    height: 100%;
+    float: left; }
+  .product-item .image-wrapper {
+    width: 140px;
+    height: 154px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 22px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important; }
+    .product-item .image-wrapper.landscape {
+      width: 130px;
+      height: 198px;
+      margin-top: 0px;
+      margin-left: 10px; }
+
+/* SHOP STYLES END */
 
 /*# sourceMappingURL=style.css.map */

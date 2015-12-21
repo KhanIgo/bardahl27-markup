@@ -1,5 +1,6 @@
 $orange: #f8b504;
 $dark-grey: #333333;
+$grey-border: #9d9d9d;
 
 *{
   margin: 0;
@@ -39,17 +40,6 @@ html, body{
 .col-7{ width: 58.3333%;} .col-8{ width: 66.6666%;}  .col-9{ width: 75%;}
 .col-10{ width: 83.3333%;} .col-11{ width: 91.6666%;}  .col-12{ width: 100%;}
 
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER STYLES BEGIN */
 header.site-header{
   background: $dark-grey;
@@ -57,7 +47,7 @@ header.site-header{
     height: 720px;
     .column{
       .label{
-        line-height: 25px;
+        line-height: 24px;
         span{
           background: $orange;
           padding: 3px 10px;
@@ -115,6 +105,11 @@ header.site-header{
 nav.site-nav{
   background: #000;
   height: auto;
+  height: 80px;
+  overflow: hidden;
+  &.opened{
+    height: 217px;
+  }
   .container{
     height: 217px;
     overflow: visible;
@@ -382,5 +377,92 @@ nav.site-nav{
     }
   }
 }
-
 /* NAVIGATION STYLES END */
+
+/* MAIN PAGE STYLES BEGIN */
+.sale-hits{
+  >.container{
+    position: relative;
+    header{
+      width: 100%;
+      height: 70px;
+      line-height: 26px;
+      position: relative;
+      h3{
+        width: 235px;
+        height: 70px;
+        line-height: 100px;
+        display: inline-block;
+      }
+
+      form{
+        position: absolute;
+        right: 0px;
+        top: 32px;
+        width: 305px;
+        height: 30px;
+
+        input{
+          width: 100%;
+          height: 100%;
+          box-shadow: none !important;
+          border: 1px solid $grey-border;
+          padding-left: 10px;
+          padding-right: 30px;
+        }
+        button{
+          width: 28px;
+          height: 28px;
+          position: absolute;
+          right: 1px;
+          top: 1px;
+          z-index: 2;
+          background: url("../images/search-lens.png") no-repeat;
+          background-position: center;
+          border: none !important;
+          box-shadow: none !important;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+/* MAIN PAGE STYLES END */
+
+
+/* SHOP STYLES BEGIN */
+
+.product-item{
+  width: 307px;
+  height: 200px;
+  border: solid 1px $grey-border;
+
+  .side-1{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+
+  .image-wrapper{
+    width: 140px;
+    height: 154px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 22px;
+
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+
+
+    &.landscape{
+      width: 130px;
+      height: 198px;
+      margin-top: 0px;
+      margin-left: 10px;
+    }
+  }
+
+}
+/* SHOP STYLES END */

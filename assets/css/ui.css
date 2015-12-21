@@ -1,3 +1,19 @@
+h3 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 500;
+  vertical-align: baseline; }
 
+.slider-control {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-decoration: none; }
+  .slider-control.control-prev {
+    background: url("../images/arrow-prev.png") no-repeat;
+    background-position: left top; }
+  .slider-control.control-next {
+    background: url("../images/arrow-next.png") no-repeat;
+    background-position: right top; }
 
 /*# sourceMappingURL=ui.css.map */
