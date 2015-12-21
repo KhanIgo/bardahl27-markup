@@ -119,7 +119,8 @@ nav.site-nav {
   background: #000;
   height: auto;
   height: 80px;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: 300ms; }
   nav.site-nav.opened {
     height: 217px; }
   nav.site-nav .container {
@@ -372,7 +373,8 @@ nav.site-nav {
   .sale-hits > .container .sale-hit-products {
     width: 100%;
     height: 420px;
-    float: left; }
+    float: left;
+    margin-top: 20px; }
     .sale-hits > .container .sale-hit-products .frame {
       width: 306px;
       height: 430px;
