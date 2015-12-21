@@ -809,18 +809,24 @@ nav.site-nav{
   background: url("../images/video-flag-bg.jpg") no-repeat;
   background-size: cover;
 
-  .header{
+  header{
     height: 80px;
     padding-top: 25px;
+    float: left;
+    h3{
+      display: inline-block !important;
+      width: 300px;
+      font-weight: 600;
+    }
     .slider-controls{
-      margin-top: 10px;
+      //margin-top: 10px;
     }
   }
 
   .content{
     float: left;
     margin-top: 7px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
 
   .video-list{

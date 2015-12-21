@@ -677,15 +677,18 @@ nav.site-nav {
 .video-block {
   background: url("../images/video-flag-bg.jpg") no-repeat;
   background-size: cover; }
-  .video-block .header {
+  .video-block header {
     height: 80px;
-    padding-top: 25px; }
-    .video-block .header .slider-controls {
-      margin-top: 10px; }
+    padding-top: 25px;
+    float: left; }
+    .video-block header h3 {
+      display: inline-block !important;
+      width: 300px;
+      font-weight: 600; }
   .video-block .content {
     float: left;
     margin-top: 7px;
-    margin-bottom: 40px; }
+    margin-bottom: 70px; }
   .video-block .video-list {
     display: block;
     list-style: none;
