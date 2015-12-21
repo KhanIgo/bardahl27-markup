@@ -445,22 +445,23 @@ nav.site-nav{
 
   .image-wrapper{
     width: 140px;
-    height: 154px;
+    height: 198px;
     float: left;
     text-align: center;
     overflow: hidden;
-    margin-top: 22px;
+    padding: 22px 0;
 
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: contain !important;
-
-
+    img{
+      height: 154px;
+      width: auto;
+    }
     &.landscape{
-      width: 130px;
-      height: 198px;
-      margin-top: 0px;
-      margin-left: 10px;
+      line-height: 205px;
+      img{
+        width: 120px;
+        height: auto;
+        display: inline-block;
+      }
     }
   }
 

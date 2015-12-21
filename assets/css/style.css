@@ -382,19 +382,20 @@ nav.site-nav {
     float: left; }
   .product-item .image-wrapper {
     width: 140px;
-    height: 154px;
+    height: 198px;
     float: left;
     text-align: center;
     overflow: hidden;
-    margin-top: 22px;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: contain !important; }
+    padding: 22px 0; }
+    .product-item .image-wrapper img {
+      height: 154px;
+      width: auto; }
     .product-item .image-wrapper.landscape {
-      width: 130px;
-      height: 198px;
-      margin-top: 0px;
-      margin-left: 10px; }
+      line-height: 205px; }
+      .product-item .image-wrapper.landscape img {
+        width: 120px;
+        height: auto;
+        display: inline-block; }
 
 /* SHOP STYLES END */
 
