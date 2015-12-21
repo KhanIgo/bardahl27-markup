@@ -450,6 +450,142 @@ nav.site-nav{
 }
 /* MAIN PAGE STYLES END */
 
+/* HISTORY BLOCK STYLES BEGIN */
+.history-row{
+  background-color: black;
+  header{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .content-container{
+    background-color: #333333;
+    height: 720px;
+    .col-6{
+      height: 100%;
+      position: relative;
+    }
+    .block-1{
+      height: 480px;
+      position: relative;
+      z-index: 1;
+      color: #ffffff;
+      float: left;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        opacity: 0.03;
+        background: url("/images/media/bg-1.jpg") no-repeat center;
+        background-size: cover;
+      }
+
+      .orange-label{
+        margin-top: 50px;
+      }
+    }
+    .block-2{
+      height: 240px;
+      position: relative;
+      z-index: 1;
+      color: white;
+      float: left;
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top:0;
+        background: url("/images/media/bg-3.jpg") center no-repeat;
+        background-size: cover;
+
+      }
+      .orange-label{
+        margin-top: 47px;
+      }
+    }
+    .block-3{
+      height: 240px;
+      position: relative;
+      z-index: 1;
+      color: white;
+      float: left;
+      &:before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #62676d;
+        position: absolute;
+        z-index: -2;
+        top:0;
+      }
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top:0;
+        background: url("/images/media/bg-2.jpg") center no-repeat;
+        background-size: cover;
+        opacity: 0.15;
+      }
+      .orange-label{
+        margin-top: 50px;
+      }
+    }
+    .block-4{
+      height: 480px;
+      position: relative;
+      z-index: 1;
+      color: #ffffff;
+      float: left;
+      .orange-label{
+        float: left;
+        margin-top: 47px;
+      }
+      p{
+        margin-top:110px;
+      }
+
+      .video-wrapper{
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        opacity: 0.03;
+        background: url("/images/media/bg-4.jpg") no-repeat center;
+        background-size: cover;
+      }
+    }
+    p{
+      color: #ffffff;
+      font-size: 16px;
+      padding: 0 50px;
+      //text-indent: 35px;
+      font-weight: 300;
+    }
+  }
+}
+/* HISTORY BLOCK STYLES END */
 
 /* SHOP STYLES BEGIN */
 .product-item{
@@ -666,3 +802,74 @@ nav.site-nav{
   }
 }
 /* SHOP STYLES END */
+
+/* VIDEO BLOCK STYLES BEGIN */
+.video-block{
+  background: url("../images/video-flag-bg.jpg") no-repeat;
+  background-size: cover;
+
+  .header{
+    height: 80px;
+    padding-top: 25px;
+    .slider-controls{
+      margin-top: 10px;
+    }
+  }
+
+  .content{
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 40px;
+  }
+
+  .video-list{
+    display: block;
+    list-style: none;
+    width: 100%;
+    float: left;
+    li{
+      display: block;
+      float: left;
+      width: 320px;
+      .video-wrapper{
+        width: 300px;
+      }
+    }
+  }
+}
+/* VIDEO BLOCK STYLES END */
+
+/**/
+.video{
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  img.video-pict{
+    width: 100%;
+    height: auto;
+  }
+  .play-button{
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: url("../images/play.png") center no-repeat;
+    cursor: pointer;
+  }
+  .name{
+    position: absolute;
+    left:0;
+    bottom: 10px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 10px;
+    color: #fff; // text color + color overlay
+    font-size: 16px;
+
+  }
+}
+/**/

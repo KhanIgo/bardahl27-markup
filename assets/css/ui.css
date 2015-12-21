@@ -16,4 +16,13 @@ h3 {
     background: url("../images/arrow-next.png") no-repeat;
     background-position: right top; }
 
+.orange-label {
+  line-height: 24px; }
+  .orange-label span {
+    background: #f8b504;
+    padding: 3px 10px;
+    color: #191919;
+    font-size: 16px;
+    font-weight: 300; }
+
 /*# sourceMappingURL=ui.css.map */

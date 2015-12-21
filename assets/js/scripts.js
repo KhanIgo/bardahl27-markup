@@ -5,7 +5,6 @@ $(function(){
     $('body').on('click', '.play-button', function(e){
         e.preventDefault();
         var $video_id = $(this).data('video-id');
-
         var $iframe = '<iframe class="mfp-iframe" frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/'+ $video_id +'?autoplay=1"></iframe>';
         var $modal = $('#video-modal');
         var $modal_content = $modal.find('.content');
