@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@-moz-document url('http://mark.oilbardahl27.dev'),
+url-prefix('http://mark.oilbardahl27.dev'),
+domain('oilbardahl27.dev') {
+  /* CSS применятся для:
+     + Страницы "http://www.w3.org/".
+     + Для любой страницы, URL которой начинается на "http://www.w3.org/Style/"
+     + Для любой страницы с URL "mozilla.org" или заканчивающимся на
+       ".mozilla.org"
+   */
+  /* сделаем описанные выше страницы реально уродливыми :)) */ }
+
+/*# sourceMappingURL=firefox-font-weight-reinit.css.map */
