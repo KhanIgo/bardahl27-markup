@@ -539,8 +539,8 @@ nav.site-nav {
       width: 100%;
       height: auto;
       color: #333;
-      font-size: 20px;
-      font-weight: 500;
+      font-size: 19px;
+      font-weight: 600;
       text-align: right;
       line-height: 23px; }
     .product-item .info .desc {
@@ -702,6 +702,41 @@ nav.site-nav {
         width: 300px; }
 
 /* VIDEO BLOCK STYLES END */
+/* FOOTER STYLES BEGIN */
+footer {
+  background-color: black;
+  padding-top: 45px;
+  position: relative; }
+  footer .container {
+    height: 150px;
+    position: relative; }
+  footer .sn-block {
+    width: 50%; }
+  footer .text {
+    width: 50%;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #62676d; }
+    footer .text .copyrights {
+      text-transform: uppercase;
+      color: white; }
+  footer .payment-logo {
+    width: 280px;
+    top: 0px;
+    right: 20px;
+    position: absolute;
+    text-align: center; }
+    footer .payment-logo img {
+      display: inline;
+      vertical-align: middle; }
+    footer .payment-logo .rbkmoney-logo {
+      float: left; }
+    footer .payment-logo .visa-logo {
+      margin-top: 5px; }
+    footer .payment-logo .mastercard-logo {
+      float: right; }
+
+/* FOOTER STYLES END */
 /**/
 .video {
   width: 100%;
@@ -731,5 +766,16 @@ nav.site-nav {
     font-size: 16px; }
 
 /**/
+.sn {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .sn.vk {
+    background-image: url("../images/vk.png"); }
+  .sn.ig {
+    background-image: url("../images/ig.png"); }
 
 /*# sourceMappingURL=style.css.map */
