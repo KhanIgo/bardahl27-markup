@@ -45,7 +45,8 @@
       border: none;
       background: #f8b504; }
       .catalog-page .subcategories-nav.level-1 > li.active > a {
-        color: #333; }
+        color: #333;
+        cursor: default; }
       .catalog-page .subcategories-nav.level-1 > li.active .level-2 {
         display: block; }
     .catalog-page .subcategories-nav.level-1 > li:hover {
@@ -106,5 +107,21 @@
     font-size: 15px; }
   .catalog-moto .subcategories-nav.level-1 li:first-child {
     margin-left: 0; }
+
+.catalog-mafra header.page-header {
+  height: 180px; }
+  .catalog-mafra header.page-header .short-desc {
+    display: none; }
+.catalog-mafra .subcategories-nav.level-1 {
+  margin-top: 12px; }
+  .catalog-mafra .subcategories-nav.level-1 li.active {
+    background: #d92226;
+    line-height: 15px; }
+    .catalog-mafra .subcategories-nav.level-1 li.active a {
+      color: white; }
+  .catalog-mafra .subcategories-nav.level-1 li:hover {
+    background: #d92226; }
+    .catalog-mafra .subcategories-nav.level-1 li:hover a {
+      color: white; }
 
 /*# sourceMappingURL=catalog.css.map */

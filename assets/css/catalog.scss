@@ -58,6 +58,7 @@
           background: #f8b504;
           >a{
             color: #333;
+            cursor: default;
           }
 
           .level-2{
@@ -159,6 +160,34 @@
         }
         &:first-child{
           margin-left: 0;
+        }
+      }
+    }
+  }
+}
+.catalog-mafra{
+  header.page-header{
+    height: 180px;
+    .short-desc{
+      display: none;
+    }
+  }
+  .subcategories-nav{
+    &.level-1{
+      margin-top: 12px;
+      li{
+        &.active{
+          background: #d92226;
+          line-height: 15px;
+          a{
+            color: white;
+          }
+        }
+        &:hover{
+          background: #d92226;
+          a{
+            color: white;
+          }
         }
       }
     }
