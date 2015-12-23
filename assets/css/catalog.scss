@@ -6,6 +6,7 @@
   header.page-header{
     //float: left;
     height: 265px;
+    background: #f5f3f3;
     .container{
       height: 100%;
     }
@@ -21,6 +22,7 @@
       font-size: 16px;
       margin-top: 9px;
       float: left;
+      width: 100%;
       a{
         color: #61676d;
       }
@@ -133,6 +135,30 @@
         }
         &:nth-child(7){
           width: 100px;
+        }
+      }
+    }
+  }
+}
+.catalog-moto{
+  header.page-header{
+    height: 200px;
+  }
+  .subcategories-nav{
+    &.level-1{
+      li{
+        width: 225px;
+        height: 40px;
+        margin-left: 20px;
+        border: 1px solid #9d9d9d;
+        line-height: 35px;
+        padding: 0 14px;
+        a{
+          color: #333;
+          font-size: 15px;
+        }
+        &:first-child{
+          margin-left: 0;
         }
       }
     }
