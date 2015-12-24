@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/catalog.css"/>
     <link rel="stylesheet" href="assets/frontend/fonts/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/frontend/css/firefox-font-weight-reinit.css"/>
-    <link rel="stylesheet" href="assets/chopslider/chopslider.css"/>
+    
 
 </head>
 <body class="index-page">
@@ -758,35 +758,10 @@
 <script src="assets/frontend/js/jquery-2.1.3.min.js"></script>
 <script src="assets/frontend/js/shop.js"></script>
 <script src="assets/frontend/js/scripts.js"></script>
-<script src="assets/chopslider/jquery.id.chopslider-2.2.0.free.min.js"></script>
-<script src="assets/chopslider/jquery.id.cstransitions-1.2.min.js"></script>
 
 <script>
     $(function(){
-        $("#chop-slider").chopSlider({
-            /* Элемент слайда */
-            slide : ".slide",
-            /* Управление */
-            //nextTrigger : "a#slide-next",
-            //prevTrigger : "a#slide-prev",
-            //hideTriggers : true,
-            //sliderPagination : ".slider-pagination",
-            /* Заголовки */
-            //useCaptions : true,
-            //everyCaptionIn : ".sl-descr",
-            //showCaptionIn : ".caption",
-            //captionTransform : "scale(0) translate(-600px,0px) rotate(45deg)",
-            /* Автопроигрывание */
-            autoplay : true,
-            autoplayDelay : 10000,
-            /* Для барузеров, которые поддерживают трансформации 3D */
-            t3D : csTransitions['3DFlips']['random'], /* Все будет выбираться случайным образом */
-            t2D : [ csTransitions['multi']['random'], csTransitions['vertical']['random'] ],
-            noCSS3 : csTransitions['noCSS3']['random'],
-            mobile : csTransitions['mobile']['random'],
-            onStart: function(){},
-            onEnd: function(){}
-        })
+
     });
 </script>
 <!-- site created by Khan Igor -->
