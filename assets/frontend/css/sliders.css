@@ -15,9 +15,14 @@
       background: url("../images/header-slider-arrow-prev.png") no-repeat; }
     .header-slider .controls-wrapper .control-next {
       background: url("../images/header-slider-arrow-next.png") no-repeat; }
-  .header-slider .slide {
+  .header-slider #chop-slider {
     width: 480px;
     height: 480px;
     float: left; }
+  .header-slider .slide {
+    width: 480px;
+    height: 480px;
+    float: left;
+    display: none; }
 
 /*# sourceMappingURL=sliders.css.map */

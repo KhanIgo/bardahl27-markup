@@ -8,12 +8,13 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
     <!--link rel="stylesheet" href="assets/fonts/open-sans/opensans_regular/stylesheet.css" /-->
 
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <link rel="stylesheet" href="assets/css/ui2.css"/>
-    <link rel="stylesheet" href="assets/css/sliders.css"/>
+    <link rel="stylesheet" href="assets/frontend/css/style.css"/>
+    <link rel="stylesheet" href="assets/frontend/css/ui2.css"/>
+    <link rel="stylesheet" href="assets/frontend/css/sliders.css"/>
     <link rel="stylesheet" href="assets/css/catalog.css"/>
-    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="assets/css/firefox-font-weight-reinit.css"/>
+    <link rel="stylesheet" href="assets/frontend/fonts/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/frontend/css/firefox-font-weight-reinit.css"/>
+    <link rel="stylesheet" href="assets/chopslider/chopslider.css"/>
 
 </head>
 <body class="index-page">
@@ -41,13 +42,12 @@
                     <a href="#" class="slider-control control-next">&nbsp;</a>
                 </div>
 
-                <!--
+                <div id="chop-slider">
                 <div class="slide">
                     <div id="slide-action-bucket-barrel">
                         <img id="photo-action-bucket-barrel" alt="" src="/images/media/banner-5/banner.jpg">
                     </div>
                 </div>
-
                 <div class="slide">
                     <style scoped>
                         #octane-booster-slide {
@@ -159,8 +159,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="slide">
                     <style scoped>
                         #slide-news {
@@ -209,7 +207,6 @@
                         <div class="desc">Новые очистители для салона, шампуни <br> и технические жидкости</div>
                     </div>
                 </div>
-
                 <div class="slide">
                     <style scoped>
                         #slide-fuel-treatment {
@@ -262,7 +259,6 @@
                         <a data-product-id="45" class="button button-yellow into-cart" href="">Купить Fuel Treatment</a>
                     </div>
                 </div>
-
                 <div class="slide">
                     <style scoped>
                         #slide-for-services {
@@ -318,35 +314,35 @@
                         <a class="button button-yellow more-info" href="/shop/part/auto#product-item-131">Узнать подробнее</a>
                     </div>
                 </div>
-                -->
-
-            <div class="slide">
-                <style scoped>
-                    #slide-delivery {
-                        width: 100%;
-                        height: 100%;
-                        background: url("/images/media/slide-delivery.jpg") no-repeat center;
-                        position: relative; }
-                    #slide-delivery .text {
-                        position: absolute;
-                        top: 360px;
-                        left: 50px; }
-                    #slide-delivery .text .title {
-                        font-size: 23px;
-                        color: white;
-                        font-weight: 500; }
-                    #slide-delivery .text .desc {
-                        font-size: 18px;
-                        color: white;
-                        font-weight: 200; }
-                </style>
-                <div id="slide-delivery">
-                    <div class="text">
-                        <div class="title">Доставка по всей России! </div>
-                        <div class="desc">Оплата курьеру при получении заказа</div>
+                <div class="slide">
+                    <style scoped>
+                        #slide-delivery {
+                            width: 100%;
+                            height: 100%;
+                            background: url("/images/media/slide-delivery.jpg") no-repeat center;
+                            position: relative; }
+                        #slide-delivery .text {
+                            position: absolute;
+                            top: 360px;
+                            left: 50px; }
+                        #slide-delivery .text .title {
+                            font-size: 23px;
+                            color: white;
+                            font-weight: 500; }
+                        #slide-delivery .text .desc {
+                            font-size: 18px;
+                            color: white;
+                            font-weight: 200; }
+                    </style>
+                    <div id="slide-delivery">
+                        <div class="text">
+                            <div class="title">Доставка по всей России! </div>
+                            <div class="desc">Оплата курьеру при получении заказа</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -759,9 +755,40 @@
 
 </body>
 </html>
-<script src="assets/js/jquery-2.1.3.min.js"></script>
-<script src="assets/js/shop.js"></script>
-<script src="assets/js/scripts.js"></script>
+<script src="assets/frontend/js/jquery-2.1.3.min.js"></script>
+<script src="assets/frontend/js/shop.js"></script>
+<script src="assets/frontend/js/scripts.js"></script>
+<script src="assets/chopslider/jquery.id.chopslider-2.2.0.free.min.js"></script>
+<script src="assets/chopslider/jquery.id.cstransitions-1.2.min.js"></script>
+
+<script>
+    $(function(){
+        $("#chop-slider").chopSlider({
+            /* Элемент слайда */
+            slide : ".slide",
+            /* Управление */
+            //nextTrigger : "a#slide-next",
+            //prevTrigger : "a#slide-prev",
+            //hideTriggers : true,
+            //sliderPagination : ".slider-pagination",
+            /* Заголовки */
+            //useCaptions : true,
+            //everyCaptionIn : ".sl-descr",
+            //showCaptionIn : ".caption",
+            //captionTransform : "scale(0) translate(-600px,0px) rotate(45deg)",
+            /* Автопроигрывание */
+            autoplay : true,
+            autoplayDelay : 10000,
+            /* Для барузеров, которые поддерживают трансформации 3D */
+            t3D : csTransitions['3DFlips']['random'], /* Все будет выбираться случайным образом */
+            t2D : [ csTransitions['multi']['random'], csTransitions['vertical']['random'] ],
+            noCSS3 : csTransitions['noCSS3']['random'],
+            mobile : csTransitions['mobile']['random'],
+            onStart: function(){},
+            onEnd: function(){}
+        })
+    });
+</script>
 <!-- site created by Khan Igor -->
 <!-- i_am@khanigo.pw -->
 <!-- www.khanigo.pw -->

@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+p { margin:10px 0; }
+h1, h2, h3, h4, h5, h6 { margin:0 0 10px; }
+h5 { text-transform:uppercase; }
+img { border:none; }
+a {
+	text-decoration:underline;
+	color:#3c0d0d;
+	outline:none;
+}
+h2 {
+	margin:15px 0;
+}
+ul li {
+	margin:5px 0;
+}
+.wrapper {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height:300px;
+	display:block;
+	padding-top:150px;
+	padding-bottom:120px;
+	background:url(../images/podium.png) no-repeat bottom;
+	z-index:2;
+}
+.wrapper2 {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:960px;
+	height:300px;
+	display:block;
+	z-index:2;
+	text-align:center;
+	padding-bottom:50px;
+}
+.wrapper2 a {
+	display:inline-block;
+	padding:0px 5px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:3px;
+	text-decoration:none;
+	margin:0px 5px;	
+}
+.wrapper2 .active-transition {
+	background:#222;
+	color:#fff;	
+}
+/*---------- Слайдер ----------- */
+
+/*---------- Левый и правый триггер ----------- */
+#slide-prev {
+	position:absolute;
+	width:21px;
+	height:33px;
+	bottom:39px;
+	left:26px;
+	z-index:4;
+	background:url(../images/sl-control.png) left top no-repeat;
+}
+#slide-next {
+	position:absolute;
+	width:21px;
+	height:33px;
+	bottom:39px;
+	right:26px;
+	z-index:4;
+	background:url(../images/sl-control.png) left bottom no-repeat;
+}
+
+/*---------- Тень ----------- */
+.s-shadow-b{
+	background:url(../images/shadow.png) no-repeat top;
+	width:876px;
+	height:55px;
+	position:absolute;
+	left:42px;
+	bottom:60px;
+	z-index:1;
+}
+/*---------- Основной контейнер слайдера ----------- */
+#slider {
+	width:900px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:2;
+	display:block;
+}
+/* Каждый слайд скрыт по умолчанию */
+.slide { display:none; }
+
+/* 
+   Видимым является только слайд с классом "cs-activeSlide"!
+   !Зарезервированное имя. Необходимый класс! 
+*/
+.cs-activeSlide { display:block; }
+
+/* Контейнер с текстом описания. Должен быть скрыт. */
+.slide-descriptions {
+	display:none;
+}
+
+/* Контейнер с заголвоком. Должен быть скрыт по умолчанию. */
+.caption {
+	background: url("../images/d-bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: none;
+    height: 280px;
+    padding: 20px;
+    position: absolute;
+    right: 40px;
+    top: 140px;
+    width: 180px;
+    z-index: 3;
+}
+.full-3D {
+	right: 40px;
+    top: 580px;
+    width: 840px;
+	height:20px;
+}
+/* Контейнер для кнопок навигации */
+.pagination {
+	bottom: 50px;
+    left: 345px;
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+}
+.slider-pagination {
+	display:inline-block;
+	width:15px;
+	height:10px;
+	background:url(../images/navi.png) no-repeat left bottom;
+	margin:0 10px;
+	cursor:pointer;
+	position:relative;
+	z-index:200;
+}
+/* Необходимый класс для активной кнопки. ! Зарезервированное имя ! */
+.cs-active-pagination {
+	background:url(../images/navi.png) no-repeat left top;
+}
+
+/* Слайдеры */
+.slider-2 {
+	padding-top:0;
+	margin-top:20px;
+}
+#slider-1, #slider-2 {
+	width:900px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:2;
+	display:block;
+}
+.cs-activeSlide-2 {
+	display:block
+}
+.cs-active-pagination-2 {
+	background:url(../images/navi.png) no-repeat left top;
+}
