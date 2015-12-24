@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="assets/css/catalog.css"/>
     <link rel="stylesheet" href="assets/frontend/fonts/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/frontend/css/firefox-font-weight-reinit.css"/>
-    
+    <link rel="stylesheet" href="assets/bxslider/jquery.bxslider.css"/>
+
 
 </head>
 <body class="index-page">
@@ -38,8 +39,8 @@
             </div>
             <div class="block-4 header-slider">
                 <div class="controls-wrapper">
-                    <a href="#" class="slider-control control-prev">&nbsp;</a>
-                    <a href="#" class="slider-control control-next">&nbsp;</a>
+                    <a href="#" id="header-slider-prev" class="slider-control control-prev">&nbsp;</a>
+                    <a href="#" id="header-slider-next" class="slider-control control-next">&nbsp;</a>
                 </div>
 
                 <div id="chop-slider">
@@ -402,8 +403,8 @@
         <div class="container">
             <header>
                 <h3>Хиты продаж</h3>
-                <a href="#" class="slider-control control-prev">&nbsp;</a>
-                <a href="#" class="slider-control control-next">&nbsp;</a>
+                <a href="#" id="salehit-control-prev" class="slider-control control-prev">&nbsp;</a>
+                <a href="#" id="salehit-control-next" class="slider-control control-next">&nbsp;</a>
 
                 <form action="#" class="search-form">
                     <input type="text" name="q" placeholder="Поиск по сайту"/>
@@ -411,12 +412,12 @@
                 </form>
             </header>
 
-            <div class="sale-hit-products">
+            <div class="sale-hit-products" id="sale-hit-slider">
                 <div class="frame">
                     <div class="product-item in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -445,7 +446,7 @@
                     <div class="product-item not-in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -476,7 +477,7 @@
                     <div class="product-item in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -505,7 +506,7 @@
                     <div class="product-item not-in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -536,7 +537,7 @@
                     <div class="product-item in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -565,7 +566,187 @@
                     <div class="product-item not-in-stock">
                         <div class="side-1">
                             <div class="image-wrapper portrait">
-                                <img src="assets/images/temp/temp.png" alt=""/>
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="product-item in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item not-in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="product-item in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item not-in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame">
+                    <div class="product-item in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
+                            </div>
+                            <div class="info">
+                                <div class="name">Hydraulic Valve Lifters</div>
+                                <div class="desc">Присадка в двигатель для снижения шума гидравлических толкателей клапанов</div>
+                                <div class="price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                                <div class="old-price"><span class="price-value">770</span> <span class="fa fa-rouble"></span></div>
+                            </div>
+                        </div>
+                        <div class="side-2">
+                            <a href="#" class="more-info-link">Узнать подробнее</a>
+                            <div class="add-cart-control">
+                                <div class="qty-controls">
+                                    <a href="#" class="qty-control increment">&nbsp;</a>
+                                    <a href="#" class="qty-control decrement">&nbsp;</a>
+                                    <input type="text" value="1"/>
+                                </div>
+                                <a href="#" class="add-cart-button">
+                                    <span>Купить</span>
+                                </a>
+                            </div>
+                            <div class="not-in-stock-text">
+                                Нет в наличии
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item not-in-stock">
+                        <div class="side-1">
+                            <div class="image-wrapper portrait">
+                                <img src="/images/temp/temp.png" alt=""/>
                             </div>
                             <div class="info">
                                 <div class="name">Hydraulic Valve Lifters</div>
@@ -666,12 +847,13 @@
         <div class="container">
             <header>
                 <h3>Видео о BARDAHL</h3>
-                <a href="#" class="slider-control control-prev">&nbsp;</a>
-                <a href="#" class="slider-control control-next">&nbsp;</a>
+                <a href="#" id="video-slider-control-prev" class="slider-control control-prev">&nbsp;</a>
+                <a href="#" id="video-slider-control-next" class="slider-control control-next">&nbsp;</a>
             </header>
 
             <div class="content">
-                <div class="slider-view"><ul class="video-list" style="width: 1920px;">
+                <div class="slider-view">
+                    <ul class="video-list">
                     <li>
                         <div class="video-wrapper">
                             <div class="video">
@@ -758,11 +940,81 @@
 <script src="assets/frontend/js/jquery-2.1.3.min.js"></script>
 <script src="assets/frontend/js/shop.js"></script>
 <script src="assets/frontend/js/scripts.js"></script>
+<script src="assets/bxslider/jquery.bxslider.min.js"></script>
 
 <script>
     $(function(){
+        var header_slider_config = {
+            mode: 'fade',
+            auto: true,
+            pause: 3000,
+            controls:false
+        };
+        var header_slider = $('#chop-slider').bxSlider(header_slider_config);
+        $('#header-slider-prev').click(function(e){
+            e.preventDefault();
+            header_slider.goToPrevSlide();
+        });
+        $('#header-slider-next').click(function(e){
+            e.preventDefault();
+            header_slider.goToNextSlide();
+        });
 
+
+        var salehit_slider_config = {
+            //mode: 'fade',
+            auto: true,
+            pause: 3000,
+            controls:false,
+            minSlides:3,
+            maxSlides:3,
+            slideWidth:306,
+            slideMargin:21,
+            moveSlides:1,
+            slideSelector: 'div.frame',
+            pager: false
+        };
+        var salehit_slider = $('#sale-hit-slider').bxSlider(salehit_slider_config);
+        $('#salehit-control-prev').click(function(e){
+            e.preventDefault();
+            salehit_slider.goToPrevSlide();
+        });
+        $('#salehit-control-next').click(function(e){
+            e.preventDefault();
+            salehit_slider.goToNextSlide();
+        });
+
+        $('#sale-hit-slider .product-item').mouseover(function(e){
+            salehit_slider.stopAuto();
+        });
+        $('#sale-hit-slider .product-item').mouseout(function(e){
+            salehit_slider.startAuto();
+        });
     });
+
+    var video_slider_config = {
+        auto: false,
+        controls:false,
+        minSlides:3,
+        maxSlides:3,
+        slideWidth:310,
+        slideMargin:15,
+        moveSlides:1,
+        slideSelector: 'li',
+        pager: false
+    };
+    var video_slider = $('.video-list').bxSlider(video_slider_config);
+
+    $('#video-slider-control-prev').click(function(e){
+        e.preventDefault();
+        video_slider.goToPrevSlide();
+    });
+    $('#video-slider-control-next').click(function(e){
+        e.preventDefault();
+        video_slider.goToNextSlide();
+    });
+
+    //video-list
 </script>
 <!-- site created by Khan Igor -->
 <!-- i_am@khanigo.pw -->

@@ -381,9 +381,8 @@ nav.site-nav {
     margin-top: 20px; }
     .sale-hits > .container .sale-hit-products .frame {
       width: 306px;
-      height: 430px;
-      float: left;
-      margin-left: 21px; }
+      height: 440px;
+      float: left; }
       .sale-hits > .container .sale-hit-products .frame:first-child {
         margin-left: 0; }
       .sale-hits > .container .sale-hit-products .frame .product-item {
@@ -701,9 +700,9 @@ nav.site-nav {
     .video-block .video-list li {
       display: block;
       float: left;
-      width: 320px; }
+      width: 310px; }
       .video-block .video-list li .video-wrapper {
-        width: 300px; }
+        width: 310px; }
 
 /* VIDEO BLOCK STYLES END */
 /* FOOTER STYLES BEGIN */
