@@ -1,0 +1,23 @@
+.header-slider {
+  width: 480px;
+  height: 480px;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+  .header-slider .controls-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99999; }
+    .header-slider .controls-wrapper .slider-control {
+      width: 32px; }
+    .header-slider .controls-wrapper .control-prev {
+      background: url("../images/header-slider-arrow-prev.png") no-repeat; }
+    .header-slider .controls-wrapper .control-next {
+      background: url("../images/header-slider-arrow-next.png") no-repeat; }
+  .header-slider .slide {
+    width: 480px;
+    height: 480px;
+    float: left; }
+
+/*# sourceMappingURL=sliders.css.map */

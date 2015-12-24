@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="assets/css/ui2.css"/>
+    <link rel="stylesheet" href="assets/css/sliders.css"/>
     <link rel="stylesheet" href="assets/css/catalog.css"/>
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/firefox-font-weight-reinit.css"/>
@@ -34,7 +35,319 @@
                     <span>BARDAHL</span>
                 </div>
             </div>
-            <div class="block-4"></div>
+            <div class="block-4 header-slider">
+                <div class="controls-wrapper">
+                    <a href="#" class="slider-control control-prev">&nbsp;</a>
+                    <a href="#" class="slider-control control-next">&nbsp;</a>
+                </div>
+
+                <!--
+                <div class="slide">
+                    <div id="slide-action-bucket-barrel">
+                        <img id="photo-action-bucket-barrel" alt="" src="/images/media/banner-5/banner.jpg">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <style scoped>
+                        #octane-booster-slide {
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            background: url("/images/media/banner-4/bg.jpg") no-repeat center;
+                            float: left; }
+                        #octane-booster-slide h3 {
+                            color: white;
+                            font-size: 32px;
+                            font-weight: 800;
+                            margin-top: 35px;
+                            margin-left: 37px;
+                            letter-spacing: 0.06em; }
+                        #octane-booster-slide .header {
+                            position: absolute;
+                            top: 83px;
+                            left: 1px;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: 200; }
+                        #octane-booster-slide .header .text-row {
+                            position: relative;
+                            background-color: #f8b504;
+                            padding: 2px 10px;
+                            padding-left: 35px;
+                            font-size: 20px;
+                            letter-spacing: 0.03em;
+                            width: auto;
+                            float: left; }
+                        #octane-booster-slide .header div.second {
+                            position: relative;
+                            height: 37px;
+                            margin-top: -7px;
+                            padding-top: 0 !important; }
+                        #octane-booster-slide .header div.second span.price {
+                            padding-left: 0;
+                            font-weight: 300;
+                            font-size: 31px;
+                            margin-left: 6px;
+                            letter-spacing: 0.06em;
+                            position: relative; }
+                        #octane-booster-slide .header div.second span.fa {
+                            padding-left: 0;
+                            font-size: 18px;
+                            margin-left: 0px;
+                            display: inline; }
+                        #octane-booster-slide #photo-octane-booster {
+                            position: absolute;
+                            left: 90px;
+                            top: 120px; }
+                        #octane-booster-slide .title {
+                            position: absolute;
+                            top: 363px;
+                            left: 51px;
+                            padding: 0px 12px;
+                            background: #f6b41a;
+                            text-transform: uppercase;
+                            letter-spacing: -0.02em;
+                            color: #000;
+                            font-size: 24px;
+                            font-weight: 500; }
+                        #octane-booster-slide .title:before {
+                            content: '';
+                            display: block;
+                            width: 39px;
+                            height: 39px;
+                            position: absolute;
+                            border: solid 5px #f6b41a;
+                            border-radius: 50%;
+                            left: -44px;
+                            top: -9px;
+                            background: url("/images/media/banner-4/gift-icon.png") no-repeat center; }
+                        #octane-booster-slide .desc {
+                            position: absolute;
+                            top: 410px;
+                            left: 55px;
+                            color: #fff;
+                            font-size: 16px;
+                            line-height: 20px; }
+                        #octane-booster-slide .desc span {
+                            position: relative; }
+                        #octane-booster-slide .desc span:before {
+                            content: '';
+                            display: block;
+                            background: url("/images/media/banner-4/check.png") no-repeat center;
+                            width: 11px;
+                            height: 9px;
+                            position: absolute;
+                            left: -18px;
+                            top: 5px; }
+                    </style>
+                    <div id="octane-booster-slide">
+                        <h3>ДАРИМ ПОДАРОК!</h3>
+                        <div class="header">
+                            <div class="text-row first">ПРИ ПОКУПКЕ ПРОДУКЦИИ НА СУММУ</div>
+                            <br>
+                            <div class="text-row second">
+                                СВЫШЕ <span class="price">9 990</span><span class="fa fa-rouble"></span>
+                            </div>
+                        </div>
+                        <img id="photo-octane-booster" alt="" src="/images/media/banner-4/photo.png">
+                        <div class="title">Присадка для бензина</div>
+                        <div class="desc">
+                            <span>Увеличивает октановое число до 5 единиц;</span><br>
+                            <span>Снижает расход топлива;</span><br>
+                            <span>Защищает клапаны от износа.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide">
+                    <style scoped>
+                        #slide-news {
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            background: url(/images/media/banner-1/bg.jpg) no-repeat center;
+                            float: left; }
+                        #slide-news .header {
+                            position: absolute;
+                            top: 50px;
+                            left: 1px;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: 300; }
+                        #slide-news .header span {
+                            background-color: #f8b504;
+                            padding: 2px 10px; }
+                        #slide-news #photo-news {
+                            position: absolute;
+                            top: 130px;
+                            left: 120px; }
+                        #slide-news .title {
+                            width: 100%;
+                            padding-left: 50px;
+                            color: white;
+                            margin-top: 360px;
+                            font-size: 18px;
+                            font-weight: 500; }
+                        #slide-news .desc {
+                            width: 100%;
+                            padding-left: 50px;
+                            margin-top: 5px;
+                            color: #f7b504;
+                            font-size: 16px;
+                            font-weight: 300; }
+                    </style>
+                    <div id="slide-news">
+                        <div class="header">
+                            <span>Внимание</span>
+                            <br>
+                            <span>Новые поступления</span>
+                        </div>
+                        <img id="photo-news" alt="" src="/images/media/banner-1/photo.png">
+                        <div class="title">Мы постоянно расширяем <br> ассортимент товара в наличии</div>
+                        <div class="desc">Новые очистители для салона, шампуни <br> и технические жидкости</div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <style scoped>
+                        #slide-fuel-treatment {
+                            width: 100%;
+                            height: 100%;
+                            position: relative;
+                            background: url("/images/media/banner-2/bg.jpg") no-repeat center;
+                            float: left; }
+                        #slide-fuel-treatment .header {
+                            position: absolute;
+                            top: 50px;
+                            left: 1px;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: 300; }
+                        #slide-fuel-treatment .header span {
+                            background-color: #f8b504;
+                            padding: 2px 10px; }
+                        #slide-fuel-treatment #photo-fuel-treatment {
+                            position: absolute;
+                            top: 50px;
+                            left: 310px; }
+                        #slide-fuel-treatment .title {
+                            width: 310px;
+                            padding-left: 50px;
+                            margin-top: 122px;
+                            letter-spacing: 1px;
+                            color: #f8b504;
+                            letter-spacing: 0.03em;
+                            font-weight: 500; }
+                        #slide-fuel-treatment .desc {
+                            width: 310px;
+                            padding-left: 50px;
+                            margin-top: 7px;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 300;
+                            line-height: 19px; }
+                        #slide-fuel-treatment a {
+                            padding: 0 10px !important;
+                            font-weight: 200; }
+                    </style>
+                    <div id="slide-fuel-treatment">
+                        <div class="header">
+                            <span>Хит продаж</span>
+                        </div>
+                        <img id="photo-fuel-treatment" alt=" " src="/images/media/banner-2/photo.png">
+                        <div class="title">BARDAHL Fuel Treatment</div>
+                        <div class="desc">Топливная присадка для <br> очистки и защиты систем <br> впрыска бензиновых <br> двигателей</div>
+                        <a data-product-id="45" class="button button-yellow into-cart" href="">Купить Fuel Treatment</a>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <style scoped>
+                        #slide-for-services {
+                            width: 100%;
+                            height: 100%;
+                            float: left;
+                            position: relative;
+                            background: url("/images/media/banner-3/bg.jpg") no-repeat center; }
+                        #slide-for-services .header {
+                            position: absolute;
+                            top: 50px;
+                            left: 1px;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            font-weight: 300; }
+                        #slide-for-services .header span {
+                            background-color: #f8b504;
+                            padding: 2px 10px; }
+                        #slide-for-services #photo-for-services {
+                            position: absolute;
+                            top: 50px;
+                            left: 220px; }
+                        #slide-for-services .title {
+                            color: white;
+                            width: 100%;
+                            padding-left: 50px;
+                            margin-top: 274px;
+                            font-size: 21px; }
+                        #slide-for-services .desc {
+                            width: 100%;
+                            padding-left: 50px;
+                            color: white;
+                            font-weight: 200;
+                            font-size: 18px;
+                            margin-top: -2px; }
+                        #slide-for-services .title-2 {
+                            width: 100%;
+                            padding-left: 50px;
+                            color: white;
+                            font-size: 26px;
+                            margin-top: 17px; }
+                    </style>
+                    <div id="slide-for-services">
+                        <div class="header">
+                            <span>Предложение</span>
+                            <br>
+                            <span>Для автосервиса</span>
+                        </div>
+                        <img id="photo-for-services" alt=" " src="/images/media/banner-3/photo.png">
+                        <div class="title">Комплект оборудования</div>
+                        <div class="desc">для чистки сажевого фильтра</div>
+                        <div class="title-2">за 24 990 рублей!</div>
+                        <a class="button button-yellow more-info" href="/shop/part/auto#product-item-131">Узнать подробнее</a>
+                    </div>
+                </div>
+                -->
+
+            <div class="slide">
+                <style scoped>
+                    #slide-delivery {
+                        width: 100%;
+                        height: 100%;
+                        background: url("/images/media/slide-delivery.jpg") no-repeat center;
+                        position: relative; }
+                    #slide-delivery .text {
+                        position: absolute;
+                        top: 360px;
+                        left: 50px; }
+                    #slide-delivery .text .title {
+                        font-size: 23px;
+                        color: white;
+                        font-weight: 500; }
+                    #slide-delivery .text .desc {
+                        font-size: 18px;
+                        color: white;
+                        font-weight: 200; }
+                </style>
+                <div id="slide-delivery">
+                    <div class="text">
+                        <div class="title">Доставка по всей России! </div>
+                        <div class="desc">Оплата курьеру при получении заказа</div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
 </header>

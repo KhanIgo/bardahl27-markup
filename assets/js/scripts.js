@@ -2,6 +2,11 @@ $(function(){
     $('body').on('mouseover', '.catalog-link', function(e){ $('.site-nav').addClass('opened'); });
     $('body').on('mouseout', '.catalog-link', function(e){ $('.site-nav').removeClass('opened'); });
 
+    $('body').on('click', '.catalog-link', function(e){
+        e.preventDefault();
+        $('.site-nav').toggleClass('opened');
+    });
+
     $('body').on('click', '.play-button', function(e){
         e.preventDefault();
         var $video_id = $(this).data('video-id');
