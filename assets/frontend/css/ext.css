@@ -1,0 +1,14 @@
+.static-page.index header.site-header {
+  display: block; }
+
+main {
+  min-height: calc(100vh - 80px - 195px); }
+
+.catalog-search .page-header {
+  height: 115px !important; }
+.catalog-search .container.search-results {
+  position: relative; }
+  .catalog-search .container.search-results .search-form {
+    top: 39px; }
+
+/*# sourceMappingURL=ext.css.map */
