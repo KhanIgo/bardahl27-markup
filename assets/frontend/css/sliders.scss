@@ -33,6 +33,20 @@
     width: 480px;
     height: 480px;
     float: left;
+    position: absolute;
+
+    a.button{
+      position:absolute;
+      bottom:50px;
+      left:50px;
+      //min-width: 220px;
+      width: auto;
+      float:left;
+      padding: 0 10px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 33px;
+    }
   }
 }
 

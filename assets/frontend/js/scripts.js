@@ -2,7 +2,7 @@ $(function(){
     $('body').on('mouseover', '.catalog-link', function(e){ $('.site-nav').addClass('opened'); });
     $('body').on('mouseout', '.catalog-link', function(e){ $('.site-nav').removeClass('opened'); });
 
-    $('body').on('click', '.catalog-link', function(e){
+    $('body').on('click', '.main-nav.catalog-link>a', function(e){
         e.preventDefault();
         $('.site-nav').toggleClass('opened');
     });
@@ -25,13 +25,13 @@ $(function(){
     });
 
     /*
-    $('body').on('click', '.catalog-link>a', function(e){
-        e.preventDefault();
-        var $container = $(this).closest('.row');
-        if($container.hasClass('opened-subnav')) $container.removeClass('opened-subnav');
-        else $container.addClass('opened-subnav');
-    });
-    */
+     $('body').on('click', '.catalog-link>a', function(e){
+     e.preventDefault();
+     var $container = $(this).closest('.row');
+     if($container.hasClass('opened-subnav')) $container.removeClass('opened-subnav');
+     else $container.addClass('opened-subnav');
+     });
+     */
 
     var $recommended_slider = $('#recommended_slider');
     if($recommended_slider.length>0){
@@ -78,16 +78,16 @@ $(function(){
      });
      }
 
-    var $slider = $('ul.slider');
-    $slider.each(function(){
-        var $slider_frames = $(this).children('li');
-        $(this).width( $slider_frames.length * $slider_frames.width() );
-        $(this).wrap('<div class="slider-wrapper">').wrap('<div class="slider-view">');
-        var $slider_wrapper = $(this).closest('.slider-wrapper');
-        $(this).data('min-margin-left', -1*($slider_frames.width()*$slider_frames.length-1000)).data('margin-left', 0).data('slide-width', $slider_frames.width());
-        $slider_wrapper.prepend('<div class="slider-control previous">').append('<div class="slider-control next">');
-    });
-    */
+     var $slider = $('ul.slider');
+     $slider.each(function(){
+     var $slider_frames = $(this).children('li');
+     $(this).width( $slider_frames.length * $slider_frames.width() );
+     $(this).wrap('<div class="slider-wrapper">').wrap('<div class="slider-view">');
+     var $slider_wrapper = $(this).closest('.slider-wrapper');
+     $(this).data('min-margin-left', -1*($slider_frames.width()*$slider_frames.length-1000)).data('margin-left', 0).data('slide-width', $slider_frames.width());
+     $slider_wrapper.prepend('<div class="slider-control previous">').append('<div class="slider-control next">');
+     });
+     */
 
     $('.slider-control.next').click(function(e){
         e.preventDefault();

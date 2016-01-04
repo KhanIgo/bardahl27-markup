@@ -22,7 +22,18 @@
   .header-slider .slide {
     width: 480px;
     height: 480px;
-    float: left; }
+    float: left;
+    position: absolute; }
+    .header-slider .slide a.button {
+      position: absolute;
+      bottom: 50px;
+      left: 50px;
+      width: auto;
+      float: left;
+      padding: 0 10px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 33px; }
 
 .sale-hits .bx-wrapper {
   width: 960px !important; }
