@@ -1679,73 +1679,48 @@ h3 {
           .static-page .history-page .history-list li .desc p:last-child {
             margin-bottom: 0px; }
 .static-page .tech-page {
-  float: left;
-  margin-bottom: 15px;
-  border-bottom: solid 2px white; }
-  .static-page .tech-page .big-pict {
-    background: url("/images/markup/tech-bg.jpg") no-repeat;
-    background-position: top left;
-    background-size: contain;
-    width: 100vw;
-    height: 35vw; }
-    .static-page .tech-page .big-pict .quote {
-      position: absolute;
-      width: 100%;
-      top: 40%;
-      text-align: center;
-      color: #fff;
-      /* text color */
-      font-size: 27px;
-      text-shadow: 4px 6px 6px #1c1c1c;
-      /* drop shadow */
-      font-style: italic; }
-  .static-page .tech-page .tech-content {
-    padding-bottom: 50px; }
-    .static-page .tech-page .tech-content .header {
-      width: 100%;
-      text-align: center;
-      font-size: 50px;
-      line-height: 100px; }
-      .static-page .tech-page .tech-content .header span.yellow {
-        color: #FFDD00; }
-    .static-page .tech-page .tech-content .row-12-12 {
+  background: white; }
+  .static-page .tech-page .button-group {
+    margin-top: 15px; }
+    .static-page .tech-page .button-group a {
+      display: block;
+      width: 470px;
+      height: 40px;
       float: left;
-      margin-bottom: 30px; }
-    .static-page .tech-page .tech-content .icon {
-      width: 135px;
-      float: left;
-      margin-left: 100px; }
-    .static-page .tech-page .tech-content .text {
-      width: 720px;
-      float: left;
-      color: #fff;
-      /* text color */
-      font-size: 14px; }
-      .static-page .tech-page .tech-content .text .title {
-        color: #ffe500;
-        /* text color */
-        font-size: 25px;
-        font-weight: bold; }
-    .static-page .tech-page .tech-content .yellow-block {
-      width: 100%;
-      background-color: #FFDD00;
-      padding: 20px 0px;
-      float: left; }
-      .static-page .tech-page .tech-content .yellow-block img {
-        width: 330px;
-        margin: 20px 35px; }
-      .static-page .tech-page .tech-content .yellow-block ol {
-        color: #000000;
-        margin-top: 15px; }
-        .static-page .tech-page .tech-content .yellow-block ol li {
-          margin-bottom: 7px; }
-      .static-page .tech-page .tech-content .yellow-block .title {
-        width: 100%;
-        text-align: center;
-        font-size: 23px;
-        font-weight: 700;
-        color: black;
-        line-height: 23px; }
+      margin-left: 20px;
+      border: solid 1px #9d9d9d;
+      color: #333;
+      font-size: 15px;
+      text-decoration: none;
+      padding-left: 10px;
+      line-height: 38px; }
+      .static-page .tech-page .button-group a.active {
+        border: none;
+        background: #f8b504; }
+      .static-page .tech-page .button-group a:first-child {
+        margin-left: 0; }
+  .static-page .tech-page .content {
+    padding-top: 35px; }
+    .static-page .tech-page .content .tech-item h4 {
+      color: #333;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 25px; }
+    .static-page .tech-page .content .tech-item .col-10 {
+      padding-left: 30px; }
+      .static-page .tech-page .content .tech-item .col-10 p {
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 21px; }
+        .static-page .tech-page .content .tech-item .col-10 p.bold {
+          font-weight: 700; }
+    .static-page .tech-page .content .tech-item.fullerence-c60 {
+      padding-bottom: 40px; }
+    .static-page .tech-page .content .tech-item.polar-plus {
+      padding-bottom: 40px;
+      display: none; }
 .static-page .scheme-map {
   background: url("/images/markup/scheme-bg.jpg") no-repeat;
   background-size: cover;
@@ -1817,10 +1792,18 @@ h3 {
 .contacts-page {
   background-color: white;
   min-height: 360px;
-  padding: 50px 0 50px 0;
+  padding: 40px 0 50px 0;
   position: relative; }
   .contacts-page .container {
     position: relative; }
+  .contacts-page .contacts-header {
+    color: #62676d !important; }
+    .contacts-page .contacts-header h3 {
+      color: #62676d !important;
+      font-size: 30px; }
+    .contacts-page .contacts-header span {
+      color: #62676d !important;
+      font-size: 18px; }
   .contacts-page .site {
     margin-top: 25px;
     height: 30px;
@@ -1882,7 +1865,8 @@ h3 {
     height: 30px;
     line-height: 30px;
     position: relative;
-    padding-left: 40px; }
+    padding-left: 40px;
+    font-weight: 700; }
     .contacts-page .phone:before {
       content: '';
       display: inline-block;
@@ -1897,69 +1881,39 @@ h3 {
       display: inline-block;
       color: #000000;
       font-weight: bold; }
-  .contacts-page .form-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    background-color: #000000; }
-    .contacts-page .form-wrapper .form-select {
-      list-style: none; }
-      .contacts-page .form-wrapper .form-select li {
-        height: 40px;
-        line-height: 40px;
-        padding-left: 25px; }
-        .contacts-page .form-wrapper .form-select li a {
-          color: white; }
-        .contacts-page .form-wrapper .form-select li.active {
-          background-color: #f8b504; }
-          .contacts-page .form-wrapper .form-select li.active a {
-            color: #000000; }
-    .contacts-page .form-wrapper form {
-      display: none;
+  .contacts-page #requisite-doc {
+    display: inline-block;
+    position: relative;
+    margin-left: 45px;
+    color: #191919;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 25px; }
+    .contacts-page #requisite-doc:before {
+      content: '';
+      display: block;
+      width: 22px;
+      height: 30px;
       position: absolute;
-      width: 100%;
-      height: calc( 100% - 40px );
-      left: 0;
-      top: 40px;
-      padding: 25px; }
-      .contacts-page .form-wrapper form input {
-        width: 100%;
-        height: 30px;
-        background-color: white;
-        border: none;
-        box-shadow: none;
-        padding: 0 10px;
-        margin-top: 25px;
-        font-size: 14px; }
-      .contacts-page .form-wrapper form textarea {
-        width: 100%;
-        height: 70px;
-        background-color: white;
-        border: none;
-        box-shadow: none;
-        padding: 5px;
-        font-size: 12px;
-        resize: none; }
-      .contacts-page .form-wrapper form button {
-        height: 30px;
-        width: auto;
-        float: right;
-        line-height: 27px;
-        padding: 0 20px;
+      left: -45px;
+      background: url("/images/markup/doc-icon.png") no-repeat; }
+  .contacts-page .requisites {
+    list-style: none;
+    display: table;
+    width: 100%;
+    margin-top: 25px; }
+    .contacts-page .requisites li {
+      display: table-row; }
+      .contacts-page .requisites li .label {
+        display: table-cell;
+        width: 95px;
+        color: #191919;
         font-size: 14px;
-        margin-top: 40px;
-        cursor: pointer; }
-      .contacts-page .form-wrapper form.question-form input {
-        margin-top: 0;
-        margin-bottom: 15px; }
-      .contacts-page .form-wrapper form.question-form button {
-        margin-top: 10px; }
-      .contacts-page .form-wrapper form *.error {
-        border: solid 1px red; }
-      .contacts-page .form-wrapper form.active {
-        display: block; }
+        font-weight: 700; }
+      .contacts-page .requisites li .data {
+        display: table-cell;
+        color: #191919;
+        font-size: 14px; }
 
 .contacts-page-map {
   height: 460px; }
@@ -1991,6 +1945,19 @@ section.payment_and_delivery {
 
 .index .site-header {
   display: block !important; }
+
+.page-header {
+  background: #f5f3f3;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  .page-header h3 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700; }
+  .page-header div.desc {
+    color: #61676d;
+    font-size: 16px;
+    margin-top: 5px; }
 
 .header-slider {
   width: 480px;

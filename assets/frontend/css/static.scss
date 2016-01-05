@@ -277,79 +277,62 @@ $dark_grey_color: #989898;
     }
   }
   .tech-page{
-    float: left;
-    margin-bottom: 15px;
-    border-bottom: solid 2px white;
-    .big-pict{
-      background: url("/images/markup/tech-bg.jpg") no-repeat;
-      background-position: top left;
-      background-size: contain;
-      width: 100vw;
-      height: 35vw;
-      .quote{
-        position: absolute;
-        width: 100%;
-        top: 40%;
-        text-align: center;
-        color: #fff; /* text color */
-        font-size: 27px;
-        text-shadow: 4px 6px 6px #1c1c1c; /* drop shadow */
-        font-style: italic;
+    background: white;
+    .button-group{
+      margin-top: 15px;
+      a{
+        display: block;
+        width: 470px;
+        height: 40px;
+        float: left;
+        margin-left: 20px;
+        border: solid 1px #9d9d9d;
+        color: #333;
+        font-size: 15px;
+        text-decoration: none;
+        padding-left: 10px;
+        line-height: 38px;
+        &.active{
+          border:none;
+          background: #f8b504;
+        }
+        &:first-child{
+          margin-left: 0;
+        }
       }
     }
-    .tech-content{
-      padding-bottom: 50px;
-      .header{
-        width: 100%;
-        text-align: center;
-        font-size: 50px;
-        line-height: 100px;
-        span.yellow{ color: $yellow_color; }
-      }
-      .row-12-12{
-        float: left;
-        margin-bottom: 30px;
-      }
-      .icon{
-        width: 135px;
-        float: left;
-        margin-left: 100px;
-      }
-      .text{
-        width:720px;
-        float: left;
-        color: #fff; /* text color */
-        font-size: 14px;
+    .content{
+      padding-top: 35px;
 
-        .title{
-          color: #ffe500; /* text color */
-          font-size: 25px;
-          font-weight: bold;
+      .tech-item{
+        h4{
+          color: #333;
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 25px;
         }
-      }
-      .yellow-block{
-        width: 100%;
-        background-color: $yellow_color;
-        padding: 20px 0px;
-        float: left;
-        img{
-          width: 330px;
-          margin: 20px 35px;
-        }
-        ol{
-          color: #000000;
-          margin-top: 15px;
-          li{
-            margin-bottom: 7px;
+
+        .col-10{
+          padding-left: 30px;
+          p{
+            color: #000;
+            font-size: 16px;
+            margin-bottom: 15px;
+            line-height: 21px;
+            &.bold{
+              font-weight: 700;
+            }
           }
         }
-        .title{
-          width:100%;
-          text-align: center;
-          font-size: 23px;
-          font-weight: 700;
-          color: black;
-          line-height: 23px;
+        &.fullerence-c60{
+          padding-bottom: 40px;
+
+        }
+
+        &.polar-plus{
+          padding-bottom: 40px;
+          display: none;
         }
       }
     }
@@ -448,11 +431,23 @@ $dark_grey_color: #989898;
 .contacts-page{
   background-color: white;
   min-height: 360px;
-  padding: 50px 0 50px 0;
+  padding: 40px 0 50px 0;
   position: relative;
 
   .container{
     position: relative;
+  }
+
+  .contacts-header{
+    color: #62676d !important;
+    h3{
+      color: #62676d !important;
+      font-size: 30px;
+    }
+    span{
+      color: #62676d !important;
+      font-size: 18px;
+    }
   }
 
   .site{
@@ -530,6 +525,7 @@ $dark_grey_color: #989898;
     line-height: 30px;
     position: relative;
     padding-left: 40px;
+    font-weight: 700;
 
     &:before{
       content: '';
@@ -550,81 +546,42 @@ $dark_grey_color: #989898;
     }
   }
 
-  .form-wrapper{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    background-color: #000000;
-
-    .form-select{
-      list-style: none;
-      li{
-        height: 40px;
-        line-height: 40px;
-        padding-left: 25px;
-        a{ color: white; }
-        &.active{
-          background-color: #f8b504;
-          a{color: #000000;}
-        }
-
-      }
-    }
-    form{
-      display: none;
+  #requisite-doc{
+    display: inline-block;
+    position: relative;
+    margin-left: 45px;
+    color: #191919;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 25px;
+    &:before{
+      content:'';
+      display:block;
+      width: 22px;
+      height: 30px;
       position: absolute;
-      width: 100%;
-      height: calc( 100% - 40px );
-      left: 0;
-      top: 40px;
-      padding: 25px;
-      input{
-        width: 100%;
-        height: 30px;
-        background-color: white;
-        border: none;
-        box-shadow: none;
-        padding: 0 10px;
-        margin-top: 25px;
+      left: -45px;
+      background: url('/images/markup/doc-icon.png') no-repeat;
+    }
+  }
+  .requisites{
+    list-style: none;
+    display: table;
+    width: 100%;
+    margin-top: 25px;
+    li{
+      display: table-row;
+      .label{
+        display: table-cell;
+        width: 95px;
+        color: #191919;
         font-size: 14px;
+        font-weight: 700;
       }
-      textarea{
-        width: 100%;
-        height: 70px;
-        background-color: white;
-        border: none;
-        box-shadow: none;
-        padding: 5px;
-        font-size: 12px;
-        resize: none;
-      }
-      button{
-        height: 30px;
-        width: auto;
-        float: right;
-        line-height: 27px;
-        padding: 0 20px;
+      .data{
+        display: table-cell;
+        color: #191919;
         font-size: 14px;
-        margin-top: 40px;
-        cursor: pointer;
-      }
-      &.question-form{
-        input{
-          margin-top: 0;
-          margin-bottom: 15px;
-        }
-        button{
-          margin-top: 10px;
-        }
-      }
-
-      *.error{
-        border: solid 1px red;
-      }
-      &.active{
-        display: block;
       }
     }
   }
@@ -677,5 +634,23 @@ section.payment_and_delivery{
 .index{
   .site-header{
     display: block !important;
+  }
+}
+
+
+.page-header{
+  background: #f5f3f3;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  h3{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  div.desc{
+    color: #61676d;
+    font-size: 16px;
+    margin-top: 5px;
   }
 }
