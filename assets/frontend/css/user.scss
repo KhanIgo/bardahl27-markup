@@ -1,9 +1,13 @@
 .user{
+  .content{
+    padding-top: 35px;
+  }
   h4{
     color: #333;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
   }
 }
 
@@ -11,6 +15,7 @@
   width: 630px;
   float: left;
   height: auto;
+
 
   .form-row{
     width: 100%;
@@ -104,24 +109,53 @@
     border: solid 1px #9d9d9d;
     border-top: none;
     float: left;
+    box-sizing: border-box;
+    div{
+      box-sizing: border-box;
+      height: 100%;
+      padding-left: 10px;
+      line-height: 27px;
+    }
     &:first-child{
       border: solid 1px #9d9d9d;
+    }
+    &.header{
+      background: #f5f3f3;
+      color: #333333 !important;
+      .num, .date, .summ, .status{
+        border: none;
+        color: #333333;
+        font-size:16px;
+      }
     }
     .num{
       width: 280px;
       float: left;
+      a{
+        color: #000;
+        font-size: 14px;
+      }
     }
     .date{
       width: 190px;
       float: left;
+      color: #61676d;
+      font-size: 14px;
     }
     .summ{
       width: 200px;
       float: left;
+      color: #61676d;
+      font-size: 14px;
     }
     .status{
-      width: 290px;
+      width: 285px;
       float: left;
+      color: #61676d;
+      font-size: 14px;
+    }
+    .num, .date, .summ{
+      border-right: solid 1px #9d9d9d;
     }
   }
 }
