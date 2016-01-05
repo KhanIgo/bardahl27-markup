@@ -2023,4 +2023,51 @@ section.payment_and_delivery {
   left: 0 !important;
   background: none !important; }
 
+.user-ref-form {
+  width: 630px;
+  float: left;
+  height: auto; }
+  .user-ref-form h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .user-ref-form .form-row {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    float: left; }
+    .user-ref-form .form-row:first-child {
+      margin-top: 0; }
+    .user-ref-form .form-row .label {
+      width: 100px;
+      float: left;
+      min-height: 1px;
+      color: #000;
+      font-size: 16px; }
+    .user-ref-form .form-row .data {
+      width: 530px;
+      float: left;
+      min-height: 1px; }
+    .user-ref-form .form-row input[type=text] {
+      height: 30px;
+      border: 1px solid #9d9d9d;
+      box-shadow: none !important;
+      outline: none !important;
+      width: 250px;
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      padding: 0px 10px;
+      font-size: 16px; }
+      .user-ref-form .form-row input[type=text].short {
+        width: 160px;
+        margin-left: 25px; }
+        .user-ref-form .form-row input[type=text].short:first-child {
+          margin-left: 0; }
+      .user-ref-form .form-row input[type=text].long {
+        width: 100%; }
+    .user-ref-form .form-row #submit-btn {
+      width: 175px; }
+
 /*# sourceMappingURL=all.css.map */

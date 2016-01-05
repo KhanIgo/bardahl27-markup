@@ -1,0 +1,59 @@
+.user-ref-form{
+  width: 630px;
+  float: left;
+  height: auto;
+
+  h4{
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .form-row{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    float: left;
+    &:first-child{  margin-top: 0;}
+
+
+    .label{
+      width: 100px;
+      float: left;
+      min-height: 1px;
+      color: #000;
+      font-size: 16px;
+    }
+    .data{
+      width: 530px;
+      float: left;
+      min-height: 1px;
+    }
+
+    input[type=text]{
+      height: 30px;
+      border: 1px solid #9d9d9d;
+      box-shadow: none !important;
+      outline: none !important;
+      width: 250px;
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      padding: 0px 10px;
+      font-size: 16px;
+      &.short{
+        width: 160px;
+        margin-left: 25px;
+        &:first-child{ margin-left: 0; }
+      }
+      &.long{
+        width: 100%;
+      }
+    }
+
+    #submit-btn{
+      width: 175px;
+    }
+  }
+}
