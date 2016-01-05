@@ -24,11 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/frontend/css/user.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88496935" vertical-offset="248" max-vertical-offset="960">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state vertical-scroll-proportion="-7.7916665" vertical-offset="98" max-vertical-offset="750">
+              <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+              <folding>
+                <element signature="e#140#1009#0" expanded="false" />
+                <element signature="e#1023#1069#0" expanded="false" />
+                <element signature="e#1093#1624#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forget-password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forget-password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recovery-password.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recovery-password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,14 +74,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reg.html">
+      <file leaf-file-name="lk.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.041667" vertical-offset="563" max-vertical-offset="1245">
-              <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="42" />
+            <state vertical-scroll-proportion="-14.666667" vertical-offset="323" max-vertical-offset="1095">
+              <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
               <folding>
                 <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#form#0;tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
@@ -90,7 +115,6 @@
         <option value="$PROJECT_DIR$/assets/frontend/css/style.scss" />
         <option value="$PROJECT_DIR$/assets/frontend/css/ui.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lk.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/technologies.html" />
         <option value="$PROJECT_DIR$/shop-product.html" />
@@ -98,7 +122,10 @@
         <option value="$PROJECT_DIR$/assets/frontend/css/all.scss" />
         <option value="$PROJECT_DIR$/assets/frontend/css/static.scss" />
         <option value="$PROJECT_DIR$/reg.html" />
+        <option value="$PROJECT_DIR$/lk.html" />
         <option value="$PROJECT_DIR$/assets/frontend/css/user.scss" />
+        <option value="$PROJECT_DIR$/forget-password.html" />
+        <option value="$PROJECT_DIR$/recovery-password.html" />
       </list>
     </option>
   </component>
@@ -166,46 +193,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bardahl27-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bardahl27-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -222,6 +209,7 @@
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/frontend/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -439,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42331287" vertical-offset="324" max-vertical-offset="2325">
@@ -466,8 +447,8 @@
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -517,6 +498,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51687115" vertical-offset="563" max-vertical-offset="1245">
+          <caret line="145" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="63" />
+          <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/frontend/css/static.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.62" vertical-offset="7744" max-vertical-offset="8370">
@@ -531,13 +524,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reg.html">
+    <entry file="file://$PROJECT_DIR$/lk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.041667" vertical-offset="563" max-vertical-offset="1245">
-          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="42" />
+        <state vertical-scroll-proportion="-14.666667" vertical-offset="323" max-vertical-offset="1095">
+          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
           <folding>
             <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#form#0;tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
@@ -545,8 +539,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/frontend/css/user.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88496935" vertical-offset="248" max-vertical-offset="960">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state vertical-scroll-proportion="-7.7916665" vertical-offset="98" max-vertical-offset="750">
+          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+          <folding>
+            <element signature="e#140#1009#0" expanded="false" />
+            <element signature="e#1023#1069#0" expanded="false" />
+            <element signature="e#1093#1624#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forget-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recovery-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

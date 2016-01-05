@@ -1,14 +1,16 @@
-.user-ref-form{
-  width: 630px;
-  float: left;
-  height: auto;
-
+.user{
   h4{
     color: #333;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
   }
+}
+
+.user-reg-form, .user-lk-form{
+  width: 630px;
+  float: left;
+  height: auto;
 
   .form-row{
     width: 100%;
@@ -54,6 +56,72 @@
 
     #submit-btn{
       width: 175px;
+    }
+  }
+}
+.user-lk-form{
+  button{
+    width: 210px !important;
+  }
+}
+.personal-discount-wrpr{
+  width: 330px;
+  float: left;
+  .desc{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    margin-top: 45px;
+  }
+  .value{
+    width: 100%;
+    //margin-top: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  }
+  .label{
+    float: right;
+    width: 292px;
+    height: 239px;
+    background: url('../images/lk-discount-bg.jpg') no-repeat;
+  }
+}
+
+#order-history{
+  list-style: none;
+  display: table;
+  width: 100%;
+  li{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: solid 1px #9d9d9d;
+    border-top: none;
+    float: left;
+    &:first-child{
+      border: solid 1px #9d9d9d;
+    }
+    .num{
+      width: 280px;
+      float: left;
+    }
+    .date{
+      width: 190px;
+      float: left;
+    }
+    .summ{
+      width: 200px;
+      float: left;
+    }
+    .status{
+      width: 290px;
+      float: left;
     }
   }
 }
