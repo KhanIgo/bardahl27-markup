@@ -24,16 +24,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shop-product.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shop-product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38803682" vertical-offset="2" max-vertical-offset="1230">
-              <caret line="72" column="32" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="32" />
+            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1230">
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
                 <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/frontend/css/catalog.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36102235" vertical-offset="764" max-vertical-offset="2115">
+              <caret line="602" column="18" selection-start-line="602" selection-start-column="18" selection-end-line="602" selection-end-column="18" />
+              <folding>
+                <element signature="e#86#662#0" expanded="false" />
+                <element signature="e#677#2983#0" expanded="false" />
+                <element signature="e#2996#3963#0" expanded="false" />
+                <element signature="e#3975#4496#0" expanded="false" />
+                <element signature="e#4511#4940#0" expanded="false" />
+                <element signature="e#5175#5440#0" expanded="false" />
+                <element signature="e#5458#5504#0" expanded="false" />
+                <element signature="e#5519#5560#0" expanded="false" />
+                <element signature="e#5567#8451#0" expanded="false" />
+                <element signature="e#8464#9885#0" expanded="false" />
+                <element signature="e#9904#10612#0" expanded="false" />
+                <element signature="e#10629#10839#0" expanded="false" />
+                <element signature="e#11335#11596#0" expanded="false" />
+                <element signature="e#12247#12776#0" expanded="false" />
+                <element signature="e#12387#12625#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,6 +97,7 @@
         <option value="$PROJECT_DIR$/technologies.html" />
         <option value="$PROJECT_DIR$/assets/frontend/css/static.scss" />
         <option value="$PROJECT_DIR$/shop-product.html" />
+        <option value="$PROJECT_DIR$/assets/frontend/css/catalog.scss" />
       </list>
     </option>
   </component>
@@ -467,13 +494,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38803682" vertical-offset="2" max-vertical-offset="1230">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="32" />
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#6;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/frontend/css/catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36102235" vertical-offset="764" max-vertical-offset="2115">
+          <caret line="602" column="18" selection-start-line="602" selection-start-column="18" selection-end-line="602" selection-end-column="18" />
+          <folding>
+            <element signature="e#86#662#0" expanded="false" />
+            <element signature="e#677#2983#0" expanded="false" />
+            <element signature="e#2996#3963#0" expanded="false" />
+            <element signature="e#3975#4496#0" expanded="false" />
+            <element signature="e#4511#4940#0" expanded="false" />
+            <element signature="e#5175#5440#0" expanded="false" />
+            <element signature="e#5458#5504#0" expanded="false" />
+            <element signature="e#5519#5560#0" expanded="false" />
+            <element signature="e#5567#8451#0" expanded="false" />
+            <element signature="e#8464#9885#0" expanded="false" />
+            <element signature="e#9904#10612#0" expanded="false" />
+            <element signature="e#10629#10839#0" expanded="false" />
+            <element signature="e#11335#11596#0" expanded="false" />
+            <element signature="e#12247#12776#0" expanded="false" />
+            <element signature="e#12387#12625#0" expanded="false" />
           </folding>
         </state>
       </provider>
