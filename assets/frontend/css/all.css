@@ -66,6 +66,9 @@ html, body {
 .col-12 {
   width: 100%; }
 
+main {
+  min-height: calc(100vh - 80px -  195px); }
+
 /* HEADER STYLES BEGIN */
 header.site-header {
   background: #333333;
@@ -2031,29 +2034,28 @@ section.payment_and_delivery {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px; }
-
-.user-reg-form, .user-lk-form {
+.user form {
   width: 630px;
   float: left;
   height: auto; }
-  .user-reg-form .form-row, .user-lk-form .form-row {
+  .user form .form-row {
     width: 100%;
     height: auto;
     margin-top: 20px;
     float: left; }
-    .user-reg-form .form-row:first-child, .user-lk-form .form-row:first-child {
+    .user form .form-row:first-child {
       margin-top: 0; }
-    .user-reg-form .form-row .label, .user-lk-form .form-row .label {
+    .user form .form-row .label {
       width: 100px;
       float: left;
       min-height: 1px;
       color: #000;
       font-size: 16px; }
-    .user-reg-form .form-row .data, .user-lk-form .form-row .data {
+    .user form .form-row .data {
       width: 530px;
       float: left;
       min-height: 1px; }
-    .user-reg-form .form-row input[type=text], .user-lk-form .form-row input[type=text] {
+    .user form .form-row input[type=text] {
       height: 30px;
       border: 1px solid #9d9d9d;
       box-shadow: none !important;
@@ -2064,18 +2066,41 @@ section.payment_and_delivery {
       float: left;
       padding: 0px 10px;
       font-size: 16px; }
-      .user-reg-form .form-row input[type=text].short, .user-lk-form .form-row input[type=text].short {
+      .user form .form-row input[type=text].short {
         width: 160px;
         margin-left: 25px; }
-        .user-reg-form .form-row input[type=text].short:first-child, .user-lk-form .form-row input[type=text].short:first-child {
+        .user form .form-row input[type=text].short:first-child {
           margin-left: 0; }
-      .user-reg-form .form-row input[type=text].long, .user-lk-form .form-row input[type=text].long {
+      .user form .form-row input[type=text].long {
         width: 100%; }
-    .user-reg-form .form-row #submit-btn, .user-lk-form .form-row #submit-btn {
+    .user form .form-row input[type=password] {
+      height: 30px;
+      border: 1px solid #9d9d9d;
+      box-shadow: none !important;
+      outline: none !important;
+      width: 250px;
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      padding: 0px 10px;
+      font-size: 16px; }
+      .user form .form-row input[type=password].short {
+        width: 160px;
+        margin-left: 25px; }
+        .user form .form-row input[type=password].short:first-child {
+          margin-left: 0; }
+      .user form .form-row input[type=password].long {
+        width: 100%; }
+    .user form .form-row #submit-btn {
       width: 175px; }
 
-.user-lk-form button {
-  width: 210px !important; }
+.user-reg-form {
+  margin-bottom: 100px; }
+
+.user-lk-form {
+  margin-bottom: 55px; }
+  .user-lk-form button {
+    width: 210px !important; }
 
 .personal-discount-wrpr {
   width: 330px;
@@ -2104,7 +2129,8 @@ section.payment_and_delivery {
 #order-history {
   list-style: none;
   display: table;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 100px; }
   #order-history li {
     display: block;
     width: 100%;

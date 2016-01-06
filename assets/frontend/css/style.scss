@@ -21,7 +21,6 @@ html, body{
 
   //text-rendering: optimizeLegibility !important;
   //-webkit-font-smoothing: antialiased !important;
-
 }
 .row{
   width: 100%;
@@ -48,6 +47,10 @@ html, body{
 .col-4{ width: 33.3333%;} .col-5{ width: 41.6666%;}  .col-6{ width: 50%;}
 .col-7{ width: 58.3333%;} .col-8{ width: 66.6666%;}  .col-9{ width: 75%;}
 .col-10{ width: 83.3333%;} .col-11{ width: 91.6666%;}  .col-12{ width: 100%;}
+
+main{
+  min-height: calc(100vh - 80px -  195px);
+}
 
 /* HEADER STYLES BEGIN */
 header.site-header{
